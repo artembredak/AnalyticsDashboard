@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Analytics Dashboard</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- Plotly -->
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+</head>
+
+<body class="bg-light">
+
+<div class="container mt-4">
+
+    <h2 class="text-center mb-4">Analytics Dashboard (Live Data)</h2>
+
+    <div class="row g-4">
+
+        <!-- Temperature -->
+        <div class="col-md-6">
+            <div class="card shadow-sm p-3">
+                <h5 class="text-center">Weekly Temperature (°C)</h5>
+                <div id="temperatureChart"></div>
+            </div>
+        </div>
+
+        <!-- Monthly Sales -->
+        <div class="col-md-6">
+            <div class="card shadow-sm p-3">
+                <h5 class="text-center">Monthly Sales (PLN)</h5>
+                <div id="salesChart"></div>
+            </div>
+        </div>
+
+        <!-- App Visits -->
+        <div class="col-md-6">
+            <div class="card shadow-sm p-3">
+                <h5 class="text-center">App Visit Sources</h5>
+                <div id="visitsChart"></div>
+            </div>
+        </div>
+
+        <!-- Inventory -->
+        <div class="col-md-6">
+            <div class="card shadow-sm p-3">
+                <h5 class="text-center">Inventory Distribution</h5>
+                <div id="inventoryChart"></div>
+            </div>
+        </div>
+        <!-- USD -->
+        <div class="col-md-6">
+            <div class="card shadow-sm p-3">
+                <h5 class="text-center">US Dollar – Last 20 Quotes</h5>
+                <div id="usdChart"></div>
+            </div>
+        </div>
+
+        <!-- CHF -->
+        <div class="col-md-6">
+            <div class="card shadow-sm p-3">
+                <h5 class="text-center">Swiss Franc – Last 20 Quotes</h5>
+                <div id="chfChart"></div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<script src="/js/charts.js"></script>
+</body>
+</html>
