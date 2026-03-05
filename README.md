@@ -163,10 +163,9 @@ gcloud run deploy analyticsdashboard \
 
 ##  Author
 
-**Artem Bredak**
+**Artem Bredak*
 
-<img width="2844" height="1405" alt="image" src="https://github.com/user-attachments/assets/6967f8e4-abe9-4368-b720-4b0c1e48ae73" />
-<img width="2848" height="1088" alt="image" src="https://github.com/user-attachments/assets/35dc610d-6db7-45ec-a581-8735a71df8e9" />
-<img width="2844" height="1030" alt="image" src="https://github.com/user-attachments/assets/6dc864ed-1cfe-4892-8850-1122200cf8b7" />
+
+<img width="476" height="609" alt="Screenshot 2026-03-05 at 08 49 24" src="https://github.com/user-attachments/assets/e40641f6-d5ec-4239-b57f-6ef9f3078506" />
 
 
