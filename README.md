@@ -148,7 +148,7 @@ gcloud run deploy analyticsdashboard \
   --image gcr.io/<PROJECT_ID>/cloudcharts-proj \
   --region europe-central2 \
   --platform managed
-```
+
 
 ---
 
@@ -165,7 +165,6 @@ gcloud run deploy analyticsdashboard \
 
 **Artem Bredak*
 
+  <img width="476" height="609" alt="Screenshot 2026-03-05 at 08 49 24" src="https://github.com/user-attachments/assets/e40641f6-d5ec-4239-b57f-6ef9f3078506" />
 
-<img width="476" height="609" alt="Screenshot 2026-03-05 at 08 49 24" src="https://github.com/user-attachments/assets/e40641f6-d5ec-4239-b57f-6ef9f3078506" />
-
-
+```
